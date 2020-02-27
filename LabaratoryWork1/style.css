@@ -1,0 +1,141 @@
+ 
+body{
+  margin: 0;
+  font-family: 'Bradley Hand, cursive';
+}
+
+ table,
+  tr,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  #inner-table {
+    width: 100%;
+    height:1000px;
+    border-collapse: separate;
+    border-spacing: 50px;
+    border: none;
+    background-image: url(images/grass.jpg);
+    
+  } /* Внутренняя таблица */
+
+  #outer-table {
+    width: 100%;
+  } /* Внешняя таблица */
+
+ #header,#footer{
+  background-image: url(images/firstimg.jpg);
+  text-align: center;
+  position: relative;
+  font-size: 20px; 
+  color: white;
+} /* Хедер и футер */
+
+
+#header img{
+     display: block;
+    position: absolute;
+    margin: auto;
+    top:10px;
+    left:30px;
+    height:60px;
+    width: 60px;
+}/* Картинка в хедере */
+
+#left{
+  width: 33%;
+  padding: 200px 0;
+  background: black;
+} /* Левая чаасть середины */
+#left h2{
+  font-size: 55px;
+  color: white;
+  text-align: center;
+} /* Заголовок контакты*/
+#left a{
+  margin:60px auto;
+  display: block;
+  font-size: 35px; 
+  color: white;
+  text-decoration: none;
+  width:110px;
+  text-align: center;
+  position: relative; 
+} /* Ссылки*/
+#left a::before {
+    display: block;
+    content: "";
+    width: 70px;
+    height: 70px;
+    left: 10px;
+    position: absolute;
+    top:-40%;
+    left:-90px;
+  }/* бефоры*/
+#instagram::before {
+     background-image: url(./images/instagramicon.png);
+     background-size: cover;
+   } 
+#email::before {
+    background-image: url(./images/emailicon.png);
+    background-size: cover;
+  }
+#telegram::before {  
+    background-image: url(./images/telegramicon.png);
+    background-size: cover;
+  }
+#facebook::before {
+    background-image: url(./images/facebookicon.png);
+    background-size: cover;
+  }
+  /* картинки к контактам*/
+
+  #topline {
+    background-color: black;
+    text-align: center;
+    position: relative;
+    font-size: 25px; 
+    color: white;
+  } /* вернхеий блок в правой части*/
+  #first-column{
+    width:50%;
+    height: 85%;
+    background-color: black;
+    vertical-align: top;
+    color: white;
+    font-size: 25px; 
+  } /* левый блок в правой части*/
+  #first-column p{
+    margin: 20px 20%;
+
+  } 
+  #first-column img{
+    margin: 2% 30%;
+  }/* аватарка*/
+
+
+  #second-column{
+    margin-top: 20px;
+    width:50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+  } /* правый блок в правой части*/
+
+  #second-column h2{
+    font-size:60px; 
+  } 
+  #second-column ul{
+    font-size:40px; 
+    list-style-type:none; 
+    padding-inline-start: 0;
+  } /*список хобби*/
+
+  #second-column ul li{
+    margin: 20px 0;      
+  }
+  
+  
