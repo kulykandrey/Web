@@ -107,7 +107,7 @@
 
  /* Заголовок контакты*/
 
- article div:nth-child(1) h2 {
+ article div:nth-child(1) h3 {
    font-size: 40px;
    color: white;
  }
