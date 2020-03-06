@@ -25,6 +25,7 @@
  /* Картинка в хедере */
 
  header img {
+   margin-left: 10px;
    display: block;
       top: 10px;
    left: 30px;
@@ -34,10 +35,13 @@
  header h1{
    position:relative;
  }
+  /* Меню в хедере */
+
  header #menu-button h3{
   font-size: 2em;
  }
  header #menu-button{
+   margin-right: 10px;
    cursor: pointer;
    position: relative;
    transition: all .5s ease;
