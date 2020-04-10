@@ -1,0 +1,10 @@
+.flag--switzerland {
+    width: 12em;
+    height: 7.5em;
+    border: 1px solid #999;
+    display: inline-block;
+    margin: 2em;
+    box-shadow: 1px 1px 1px #CCC;
+    transition: all .5s;
+    background: linear-gradient(red 20%, transparent 20%, transparent 80%, red 80%), linear-gradient(90deg, red 30%, transparent 30%, transparent 45%, white 45%, white 55%, transparent 55%, transparent 70%, red 70%), linear-gradient(red 42%, white 42%, white 58%, red 58%);
+  }
